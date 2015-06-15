@@ -23,7 +23,7 @@ $(window).scroll(function () {
 //  $('#portModal').modal();
 //});
 $.ajax({
-  url: "../blog/feed/json",
+  url: "http://anikdas.com/blog/feed/json",
   crossDomain: true,
   contentType:"json",
   success: function (data) {
