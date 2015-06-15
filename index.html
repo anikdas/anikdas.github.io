@@ -1,25 +1,201 @@
-<html>
-<head>
-	<title>Welcome!</title>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
-	<meta name = "description" content = "Personal Website of Anik Das" />
-	<meta name="google-site-verification" content="skz7XETJgbQ-U9fEHTOG4nd5tLn8JMycv7tEbUhQf-M" />
-	<link rel="stylesheet" type="text/css" href="css/mycss.css">
-	<script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "description" content="Welcome to the personal website of Anik Das, web developer based out of Bangladesh" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anik Das</title>
 
-  	ga('create', 'UA-50449728-1', 'anikdas.com');
-	ga('send', 'pageview');
-</script>
-</head>
-<body>
-	<h1>Hello World!</h1>
-	<h2>From</h2>
-	<h1>Anik Das</h1>
-</body>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="author" href="https://plus.google.com/+AnikDas">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50449728-1', 'anikdas.com');
+        ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid nav-container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" data-scroll data-options= "offset: 110px;" href="#page1"><strong><span class ="braces">{</span>ANIK DAS<span class = "braces">}</span></strong></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class = "nav-link" ><a data-scroll data-options= "offset: 110px;" href="#page1">Home</a></li>
+            <li class = "nav-link" ><a data-scroll data-options= "offset: 30px;" href="#portfolio">Portfolio</a></li>
+            <li class = "nav-link" ><a data-scroll data-options= "offset: 30px;" href="#page3">Recent posts</a></li>
+            <li class = "nav-link" ><a href="/blog/">Blog</a></li>
+            <li class = "nav-link" ><a data-scroll href="#about">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <div id = "page1" class="row">
+        <div id = "page1" class = "page1" class="col-md-12">
+          <center>
+            <img class="img-responsive" src="img/a.png">
+          </center>
+          <br>
+          <p class = "head1 text-center name">Web Developer | Designer | Human</p>
+        </div>
+      </div>
+      <div id = "portfolio" class="row page2">
+        <h1 class = "name text-center">Portfolio</h1>
+        <div class ="shadow" ></div>
+        <br><br>
+        <div class = "col-md-4" >
+        </div>
+        <div class = "col-md-4 inset-shadow" >
+          <div class = "portfolio-launcher" data-portfolio = "portfolio 1">
+            <legend>Charity Management</legend>
+            <p>A portal for managing users, donations, inventory, bill generation, daily sales management etc.</p>
+            <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=charityManagement&type=fork&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=charityManagement&type=watch&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+          </div>
+          <!-- <img class = "portfolio-img" src="img/port1.png"> -->
+        </div>
+        <div class = "col-md-4" >
+        </div>
+        <br>
+        <div class="clearfix"></div>
+        <div class = "col-md-4 inset-shadow" >
+          <div class = "portfolio-launcher" data-portfolio = "portfolio 1">
+            <legend>XKCD Comic Downloader</legend>
+            <p>Like XKCD comics? Grab them all using my simple Python script. Pretty Easy! And yes you are welcome!</p>
+            <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=randomPython&type=fork&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=randomPython&type=watch&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+          </div>
+          <!-- <img class = "portfolio-img" src="img/port1.png"> -->
+        </div>
+
+        <div class = "col-md-4 inset-shadow" >
+          <div class = "portfolio-launcher" data-portfolio = "portfolio 1">
+            <legend>JL8 Comic Downloader</legend>
+            <p>I like the JL8 Batman comics! (Who doesn't like Batman!!) A python script to download all jl8 comics.</p>
+            <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=randomPython&type=fork&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=randomPython&type=watch&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+          </div>
+          <!-- <img class = "portfolio-img" src="img/port1.png"> -->
+        </div>
+
+        <div class = "col-md-4 inset-shadow" >
+          <div class = "portfolio-launcher" data-portfolio = "portfolio 1">
+            <legend>Facebook Video Downloader</legend>
+            <p>Who doesn't like to save some videos for later to watch. This script will do the job for you. Just paster the Facebook video link(public) and Voila!</p>
+            <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=randomPython&type=fork&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=anikdas&repo=randomPython&type=watch&count=true&size=large"
+              allowtransparency="true" frameborder="0" scrolling="0" width="120" height="30"></iframe>
+          </div>
+          <!-- <img class = "portfolio-img" src="img/port1.png"> -->
+        </div>
+
+      </div>
+      <hr>
+      <div id ="page3" class="page2">
+        <h1 class = " name text-center">Recent blog posts</h1>
+        <div class ="shadow" ></div>
+        <div id ="recentBlogs" class="row">
+        </div>
+        <hr>
+      </div>
+
+      
+    </div>
+    <div id = "about" id="page4" class = "page2">
+      <div class ="container-fluid about">
+        <div class= "container">
+          <div class="row">
+            <div class="contact col-md-4">
+              <h1 class = "">Oh Hello!</h1>
+              <p>I forgot to Introduce myself. <br>
+                I am Anik Das <br>
+                A web developer based out of <abbr title = "A beautiful country in South Asia" ><a href="http://en.wikipedia.org/wiki/Bangladesh" target = "_blank">Bangladesh</a></abbr> <br>
+              </p>
+            </div>
+            <br>
+            <div class="col-md-4 contact footer hr-border text-center">
+              <h3>Elsewhere in the web...</h3>
+              <ul class ="list-inline">
+                <li><a href="https://twitter.com/anikdas92" target = "_blank"><img class ="social-ico" src="img/social/twitter.png"></a></li>
+                <li><a href="http://bd.linkedin.com/in/anikdas/" target = "_blank"><img class ="social-ico" src="img/social/linkedin.png"></a></li>
+                <li><a href="https://www.google.com/+AnikDas" target = "_blank"><img class ="social-ico" src="img/social/google+.png"></a></li>
+              </ul>
+            </div>
+            <div class="text-center col-md-4 contact hr-border-2">
+              <p>
+                Want me to to work on <br> one of your projects? <br>or<br>
+                How about just a friendly talk? <br>
+                Send me an <a class="link" href="mailto:hello@anikdas.com">email</a> and we can grab a lovely cup of coffee. &hearts;
+              </p>
+            </div>
+            <div class="clearfix"></div>
+            <div id ="footer" >
+              <div class="container-fluid text-center">
+                <hr>
+                © 2014 Anik Das <br>
+                Made with &hearts; using
+                HTML | CSS | JavaScript <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio Modal 1 -->
+    <div class="modal fade" id="portModal" tabindex="-1" role="dialog" aria-labelledby="portLable" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title name" id="portLabel"></h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- portfolio modal 1 end -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
